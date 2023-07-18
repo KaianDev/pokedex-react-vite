@@ -100,7 +100,7 @@ function App() {
 
                 <Routes>
                     <Route
-                        path="/:pokemonName/:pokemonDetails/:pokemonId/:pokemonTypes"
+                        path="/pokedex-react-vite/:pokemonName/:pokemonDetails/:pokemonId/:pokemonTypes"
                         Component={PokemonDetails}
                     />
                 </Routes>
