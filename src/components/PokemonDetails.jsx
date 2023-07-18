@@ -34,7 +34,7 @@ const PokemonDetails = () => {
 
     const navigate = useNavigate();
     const handleButtonBackClick = () => {
-        navigate("/");
+        navigate("/pokedex-react-vite/");
     };
 
     const url = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemonId}.svg`;
