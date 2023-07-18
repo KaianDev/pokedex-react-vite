@@ -87,7 +87,7 @@ function App() {
                         Component={() => <CardsPokemon pokemons={pokemons} />}
                     /> */}
                     <Route
-                        path="/"
+                        path="/pokedex-react-vite/"
                         Component={() => {
                             if (pokemons.length === 151) {
                                 return <CardsPokemon pokemons={pokemons} />;
