@@ -5,7 +5,7 @@ import "./Header.css";
 const Header = () => {
     const navigate = useNavigate();
     const handleHeaderClick = () => {
-        navigate("/pokedex-react-vite/");
+        navigate("/");
     };
 
     return (
